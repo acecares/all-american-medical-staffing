@@ -8,7 +8,7 @@ const Home = () => {
 
   const handleVerify = () => {
     if (inputCode.trim().toUpperCase() === "SUCCESS") {
-      window.location.href = "/onboarding";
+      window.location.href = "/coverage-areas";
     } else {
       setError("Invalid access code.");
     }
@@ -27,20 +27,17 @@ const Home = () => {
         alt="Logo"
         style={{ width: "250px", position: "relative", top: "20px" }}
       />
-      <h1 className="title">ACE SUCCESS TEAM</h1>
+      <h1 className="title">All American Medical Staffing</h1>
 
       <div className="card-grid">
-        <div className="card" onClick={() => (window.location.href = "/apply")}>
-          <h2>Apply Now</h2>
-        </div>
         <div
           className="card"
-          onClick={() => (window.location.href = "/education")}
+          onClick={() => (window.location.href = "/healthcare-staffing")}
         >
-          <h2>Trainings and Education</h2>
+          <h2>Healthcare Staffing</h2>
         </div>
         <div className="card" onClick={() => setShowModal(true)}>
-          <h2>Onboarding</h2>
+          <h2>Coverage Areas</h2>
         </div>
         <div
           className="card"
@@ -55,14 +52,20 @@ const Home = () => {
           className="card"
           onClick={() => (window.location.href = "/vision")}
         >
-          <h2>Vision & Mission</h2>
+          <h2>Mission & Vision</h2>
+        </div>
+        <div
+          className="card"
+          onClick={() => (window.location.href = "/contact")}
+        >
+          <h2>Contact Us</h2>
         </div>
       </div>
 
       {showModal && (
         <div className="modal-overlay">
           <div className="modal">
-            <h2>Enter Access Code for Onboarding</h2>
+            <h2>Enter Access Code for Coverage Areas</h2>
             <input
               type="text"
               placeholder="Enter access code"
