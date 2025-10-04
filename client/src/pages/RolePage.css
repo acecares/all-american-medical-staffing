@@ -1,0 +1,71 @@
+.role-page {
+  padding: 2rem;
+  background-color: #f9fbfd;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.pdf-container {
+  margin-top: 2rem;
+  max-height: 600px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.back-button {
+  margin-top: 2rem;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  background-color: #017f57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #026e4c;
+}
+
+
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  body, .container {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .container, .card, .section, .content {
+    flex-direction: column !important;
+    width: 100% !important;
+    font-size: 0.9rem !important;
+    padding: 0.5rem !important;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2rem !important;
+  }
+
+  nav, header, footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
