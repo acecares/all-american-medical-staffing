@@ -3,48 +3,57 @@ import "./AboutUs.css";
 
 const AboutHero = () => (
   <section>
-    {/* Existing Hero Section */}
+    {/* Hero Section */}
     <div className="about-hero">
       <div className="about-hero-content">
         <div className="about-hero-left">
           <h2>About Us</h2>
-          <p className="tagline">Succeed • Grow • Thrive</p>
+          <p className="tagline">Caring for Communities • Empowering Healthcare Professionals</p>
           <p>
-            Ace Compliance Consulting is your trusted partner for growth and
-            transformation. We are a playground where professionals engage in
-            meaningful, effective, and efficient work. Our focus is to help
-            businesses and individuals grow into the best version of themselves
-            through compliance, consulting, and operational excellence.
+            All American Medical Staffing is a nationwide healthcare staffing and recruitment agency 
+            dedicated to connecting skilled medical professionals with quality healthcare facilities. 
+            We take pride in supporting hospitals, clinics, and long-term care centers by providing 
+            qualified nurses, caregivers, and allied health professionals who deliver compassionate care.
           </p>
         </div>
-        <img src="/about_us.png" alt="Our Team" />
+        <img src="/doctors-nurses-team-portrait-hospital-clinic-medical-office-diversity-health-healthcare-professionals-standing-together-arms-crossed-confidence-teamwork-collaboration-support.jpg" alt="All American Medical Staffing Team" />
       </div>
     </div>
 
-    {/* New Detailed About Section */}
+    {/* Detailed About Section */}
     <div className="about-detailed">
       <div className="about-detailed-content">
-        <h3>Strategic Processes & Systems for Success</h3>
+        <h3>Our Commitment to Excellence</h3>
         <p>
-          Ace Compliance Consulting assists individuals to establish a new home
-          care business and offer services to existing home care businesses that
-          enable compliance, legal support, strategic processes, and systems for
-          effective and efficient operation that leads to success.
+          Founded with a mission to improve healthcare delivery, 
+          All American Medical Staffing helps bridge the gap between 
+          healthcare facilities and talented professionals. 
+          We specialize in recruiting experienced nurses, CNAs, 
+          medical assistants, and healthcare specialists who share our 
+          passion for service and excellence.
         </p>
 
         <p>
-          At Ace, our team is committed to leading every client to succeed in
-          their business. Our start-up policies and procedure systems and
-          services provided before, during, and after the survey are
-          strategically designed to ensure compliance with state and federal
-          certification and accreditation and rules and regulations.
+          Our dedicated team ensures a smooth and efficient placement process 
+          by handling compliance, credentialing, and onboarding for both 
+          short-term and long-term assignments. We go beyond staffing — 
+          we build trusted relationships that enhance patient outcomes 
+          and empower healthcare professionals to thrive.
         </p>
 
-        <h3>Experience the Difference of Stress-Free Surveys</h3>
+        <h3>Why Choose All American Medical Staffing?</h3>
+        <ul>
+          <li>Comprehensive support for nurses and healthcare workers.</li>
+          <li>Trusted by leading hospitals, clinics, and care centers nationwide.</li>
+          <li>Personalized onboarding and compliance assistance.</li>
+          <li>Flexible contracts — per diem, travel, and permanent placement.</li>
+        </ul>
+
+        <h3>Our Vision</h3>
         <p>
-          The consulting company you choose to start your business matters. When
-          you choose Ace, you choose Success. Make your decision to choose Ace
-          Compliance Consulting today.
+          To be the preferred healthcare staffing agency known for integrity, 
+          reliability, and excellence — empowering medical professionals 
+          and strengthening healthcare systems across America.
         </p>
       </div>
     </div>

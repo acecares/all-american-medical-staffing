@@ -22,6 +22,7 @@ import SuccessCoachesPage from "./pages/SuccessCoachesPage";
 import CoachApply from "./components/CoachApply";
 // import Contact from "./components/Contact";
 import Contact from "./pages/Contact/Contact";
+import NurseStaffing from "./pages/NurseStaffing";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Route path="/success-consultant" element={<SuccessConsultantPage />} />
         <Route path="/success-coaches" element={<SuccessCoachesPage />} />
         <Route path="/apply/CoachApply" element={<CoachApply />} />
+        <Route path="/nurse-staffing" element={<NurseStaffing />} />
       </Routes>
     </Router>
   );
