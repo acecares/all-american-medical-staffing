@@ -1,10 +1,12 @@
 import React from "react";
 import "./NurseStaffing.css";
+import Navbar from "../../src/components/Navbar/Navbar";
 
 const NurseStaffing = () => {
   return (
     <div className="nurse-staffing-page">
       {/* Banner Section */}
+      <Navbar /> 
       <section className="services-banner-section">
         <img
           src="/nurse-staffing.jpg"

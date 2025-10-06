@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Home.css";
+// import VisionMission from "./pages/VisionMission";
+// import { useNavigate } from "react-router-dom";
+
 
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
@@ -32,11 +35,15 @@ const Home = () => {
       <div className="card-grid">
         <div
           className="card"
-          onClick={() => (window.location.href = "/healthcare-staffing")}
+          onClick={() => (window.location.href = "/management-staff-placement")}
         >
           <h2>Healthcare Staffing</h2>
         </div>
-        <div className="card" onClick={() => setShowModal(true)}>
+        {/* <div className="card" onClick={() => setShowModal(true)}>
+          <h2>Coverage Areas</h2>
+        </div> */}
+        <div className="card" 
+        onClick={() =>  (window.location.href = "/coverageareas")}>
           <h2>Coverage Areas</h2>
         </div>
         <div
@@ -50,7 +57,8 @@ const Home = () => {
         </div>
         <div
           className="card"
-          onClick={() => (window.location.href = "/vision")}
+          onClick={() => (window.location.href = "/Vision")}
+
         >
           <h2>Mission & Vision</h2>
         </div>

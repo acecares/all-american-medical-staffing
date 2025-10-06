@@ -1,63 +1,103 @@
 import React from "react";
 import "./AboutUs.css";
+// import Navbar from "../../components/Navbar/Navbar";
 
-const AboutHero = () => (
-  <section>
-    {/* Hero Section */}
-    <div className="about-hero">
-      <div className="about-hero-content">
-        <div className="about-hero-left">
-          <h2>About Us</h2>
-          <p className="tagline">Caring for Communities • Empowering Healthcare Professionals</p>
-          <p>
-            All American Medical Staffing is a nationwide healthcare staffing and recruitment agency 
-            dedicated to connecting skilled medical professionals with quality healthcare facilities. 
-            We take pride in supporting hospitals, clinics, and long-term care centers by providing 
-            qualified nurses, caregivers, and allied health professionals who deliver compassionate care.
+const AboutHero = () => {
+  return (
+    <div className="about-page">
+      {/* <Navbar /> */}
+
+      {/* Banner Section */}
+      <section className="about-banner-section">
+        <img
+          src="/about-us-medical.jpg"
+          alt="All American Medical Staffing team"
+          className="about-banner"
+        />
+        <div className="banner-overlay">
+          <h1 className="banner-title">About Us</h1>
+          <p className="banner-subtitle">
+            Building strong healthcare teams through trust, compassion, and excellence.
           </p>
         </div>
-        <img src="/doctors-nurses-team-portrait-hospital-clinic-medical-office-diversity-health-healthcare-professionals-standing-together-arms-crossed-confidence-teamwork-collaboration-support.jpg" alt="All American Medical Staffing Team" />
-      </div>
-    </div>
+      </section>
 
-    {/* Detailed About Section */}
-    <div className="about-detailed">
-      <div className="about-detailed-content">
-        <h3>Our Commitment to Excellence</h3>
+      {/* Main About Section */}
+      <section className="about-main">
+        <div className="about-content">
+          <h2>Who We Are</h2>
+          <p>
+            <strong>All American Medical Staffing</strong> is a trusted healthcare staffing
+            agency dedicated to providing professional, dependable, and compassionate staff
+            for healthcare organizations across the nation. We specialize in connecting
+            skilled nurses, management leaders, and healthcare professionals with
+            facilities that share their passion for quality care.
+          </p>
+          <p>
+            Our goal is to help medical providers maintain the highest standards of
+            patient care while ensuring healthcare professionals have rewarding and
+            fulfilling career opportunities. We work with hospitals, clinics, and
+            home-health agencies to ensure reliable, flexible, and compliant staffing
+            solutions.
+          </p>
+        </div>
+      </section>
+
+      {/* Our Mission & Values */}
+      <section className="about-values">
+        <h2>Our Mission</h2>
         <p>
-          Founded with a mission to improve healthcare delivery, 
-          All American Medical Staffing helps bridge the gap between 
-          healthcare facilities and talented professionals. 
-          We specialize in recruiting experienced nurses, CNAs, 
-          medical assistants, and healthcare specialists who share our 
-          passion for service and excellence.
+          To serve as the bridge between exceptional healthcare professionals and
+          organizations that need them — fostering excellence, compassion, and trust in
+          every placement we make.
         </p>
 
-        <p>
-          Our dedicated team ensures a smooth and efficient placement process 
-          by handling compliance, credentialing, and onboarding for both 
-          short-term and long-term assignments. We go beyond staffing — 
-          we build trusted relationships that enhance patient outcomes 
-          and empower healthcare professionals to thrive.
-        </p>
+        <h2>Our Values</h2>
+        <div className="values-grid">
+          <div className="value-card">
+            <h3>Integrity</h3>
+            <p>
+              We operate with honesty, accountability, and transparency in every client
+              and candidate interaction.
+            </p>
+          </div>
+          <div className="value-card">
+            <h3>Compassion</h3>
+            <p>
+              We believe in serving others with care, empathy, and respect for every
+              healthcare worker and patient.
+            </p>
+          </div>
+          <div className="value-card">
+            <h3>Excellence</h3>
+            <p>
+              We hold ourselves to the highest standards in compliance, service, and
+              professional quality.
+            </p>
+          </div>
+          <div className="value-card">
+            <h3>Dedication</h3>
+            <p>
+              Our team works tirelessly to ensure every healthcare facility receives the
+              right staff — on time, every time.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <h3>Why Choose All American Medical Staffing?</h3>
+      {/* Why Choose Section */}
+      <section className="about-why">
+        <h2>Why Choose All American Medical Staffing?</h2>
         <ul>
-          <li>Comprehensive support for nurses and healthcare workers.</li>
-          <li>Trusted by leading hospitals, clinics, and care centers nationwide.</li>
-          <li>Personalized onboarding and compliance assistance.</li>
-          <li>Flexible contracts — per diem, travel, and permanent placement.</li>
+          <li>✔️ Nationwide coverage with local recruitment support.</li>
+          <li>✔️ Comprehensive vetting and credentialing process.</li>
+          <li>✔️ Flexible staffing options — per diem, travel, and permanent.</li>
+          <li>✔️ Dedicated 24/7 client support and compliance monitoring.</li>
+          <li>✔️ Commitment to quality and long-term partnership.</li>
         </ul>
-
-        <h3>Our Vision</h3>
-        <p>
-          To be the preferred healthcare staffing agency known for integrity, 
-          reliability, and excellence — empowering medical professionals 
-          and strengthening healthcare systems across America.
-        </p>
-      </div>
+      </section>
     </div>
-  </section>
-);
+  );
+};
 
 export default AboutHero;

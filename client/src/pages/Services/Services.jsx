@@ -14,13 +14,13 @@ const serviceItems = [
     title: "Management Staff Placement",
     description:
       "Direct-hire and interim placement for Directors of Nursing, Nurse Managers, Administrators, Clinical Leaders, and other healthcare management roles.",
-    href: "https://web.link2newsite.com/acecc/allamericaor277/healthcare-staffing-services/management-staff-placement",
+    href: "/management-staff-placement",
   },
   {
     title: "Rapid Visit Request Form",
     description:
       "Need coverage fast? Submit a Rapid Visit Request and our team will respond quickly with qualified nurses and staff for immediate assignments.",
-    href: "https://web.link2newsite.com/acecc/allamericaor277/healthcare-staffing-services/rapid-visit-request-form",
+    href: "/rapid-visit-request-form",
   },
 ];
 

@@ -6,31 +6,28 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
+        {/* Logo */}
         <div className="navbar-logo">
-          <img src="/main-logo.png" alt="ACE Logo" />
+          <img
+            src="/main-logo.png"
+            alt="All American Medical Staffing Logo"
+          />
         </div>
 
+        {/* Navigation Links */}
         <ul className="navbar-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/services">Services</Link>
-          </li>
-          <li>
-            <Link to="/education">Training and Education</Link>
-          </li>
-          <li>
-            <Link to="/apply">Apply</Link>
-          </li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/nurse-staffing">Nurse Staffing</Link></li>
+          <li><Link to="/management-staff-placement">Staff Placement</Link></li>
+          <li><Link to="/vision">Mission & Vision</Link></li>
         </ul>
 
+        {/* Contact Button */}
         <div className="navbar-contact">
-          <Link to="/contact" className="contact-button">
-            Contact
+          <Link to="/rapid-visit-request-form" className="contact-button">
+            Request Visit
           </Link>
         </div>
       </div>

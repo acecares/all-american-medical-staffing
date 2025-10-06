@@ -1,0 +1,147 @@
+.coverage-page {
+    font-family: "Poppins", sans-serif;
+    color: #003e29;
+    background-color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  /* Banner Section */
+  .coverage-banner-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .coverage-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Intro Section */
+  .coverage-intro {
+    padding: 70px 10%;
+    text-align: center;
+    background: #f9fdfb;
+  }
+  
+  /* States Grid */
+  .coverage-list {
+    padding: 70px 10%;
+    text-align: center;
+    background: #e6f7f1;
+  }
+  
+  .states-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .state-card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+    color: #014421;
+    transition: 0.3s ease;
+  }
+  
+  .state-card:hover {
+    transform: translateY(-4px);
+    background: #007b5e;
+    color: white;
+  }
+  
+  /* Why Choose */
+  .coverage-benefits {
+    padding: 70px 10%;
+    background: #fffdf7;
+    text-align: center;
+  }
+  
+  .coverage-benefits h2 {
+    color: #014421;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .coverage-benefits ul {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .coverage-benefits li {
+    margin: 10px 0;
+    padding: 10px 16px;
+    background: #f2fbf7;
+    border-left: 5px solid #007b5e;
+    border-radius: 8px;
+  }
+  
+  /* CTA Section */
+  .coverage-cta {
+    text-align: center;
+    padding: 70px 10%;
+    background: #007b5e;
+    color: white;
+  }
+  
+  .coverage-cta p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #007b5e;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #f2f2f2;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .banner-title {
+      font-size: 2rem;
+    }
+    .banner-subtitle {
+      font-size: 1rem;
+    }
+  }
+  

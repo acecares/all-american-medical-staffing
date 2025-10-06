@@ -1,0 +1,162 @@
+.rapid-visit-page {
+    font-family: "Poppins", sans-serif;
+    color: #003e29;
+    background-color: #f9fdfb;
+    line-height: 1.6;
+  }
+  
+  /* Banner Section */
+  .services-banner-section {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+  }
+  
+  .services-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 10px auto;
+  }
+  
+  /* Intro Section */
+  .rapid-intro {
+    padding: 60px 10%;
+    text-align: center;
+  }
+  
+  /* Form Section */
+  .rapid-form-section {
+    background: #e6f7f1;
+    padding: 50px 10%;
+    border-radius: 12px;
+  }
+  
+  .rapid-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #005942;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #cdd8d4;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #007b5e;
+    box-shadow: 0 0 5px rgba(0, 123, 94, 0.3);
+  }
+  
+  .form-submit {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  button {
+    background: #007b5e;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #005f47;
+  }
+  
+  /* CTA Section */
+  .rapid-cta {
+    text-align: center;
+    padding: 60px 10%;
+    background: #007b5e;
+    color: white;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #007b5e;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #f2f2f2;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .rapid-form {
+      padding: 25px;
+    }
+  
+    .banner-title {
+      font-size: 2rem;
+    }
+  }
+  

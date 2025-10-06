@@ -23,6 +23,16 @@ import CoachApply from "./components/CoachApply";
 // import Contact from "./components/Contact";
 import Contact from "./pages/Contact/Contact";
 import NurseStaffing from "./pages/NurseStaffing";
+import ManagementStaffPlacement from "./pages/ManagementStaffPlacement";
+import RapidVisitRequestForm from "./pages/RapidVisitRequestForm";
+import CoverageAreas from "./pages/CoverageAreas";
+
+
+
+
+
+
+
 
 function App() {
   return (
@@ -53,6 +63,9 @@ function App() {
         <Route path="/success-coaches" element={<SuccessCoachesPage />} />
         <Route path="/apply/CoachApply" element={<CoachApply />} />
         <Route path="/nurse-staffing" element={<NurseStaffing />} />
+        <Route path="/management-staff-placement" element={<ManagementStaffPlacement />} />
+        <Route path="/rapid-visit-request-form" element={<RapidVisitRequestForm />} />
+        <Route path="/coverage-areas" element={<CoverageAreas />} />
       </Routes>
     </Router>
   );
