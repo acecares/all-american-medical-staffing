@@ -1,115 +1,103 @@
-import React from 'react';
-import './About.css';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import "./AboutUs.css";
+// import Navbar from "../../components/Navbar/Navbar";
 
-const About = () => {
-  const navigate = useNavigate();
-
+const AboutHero = () => {
   return (
-    <div className="about-container">
-      <div className="overlay">
-        <h1>About Us</h1>
-        <p className="tagline">Succeed • Grow • Thrive</p>
+    <div className="about-page">
+      {/* <Navbar /> */}
 
-        {/* AboutSection */}
-        <div className="info-section">
-          <div className="info-card">
+      {/* Banner Section */}
+      <section className="about-banner-section">
+        <img
+          src="/about-us-medical.jpg"
+          alt="All American Medical Staffing team"
+          className="about-banner"
+        />
+        <div className="banner-overlay">
+          <h1 className="banner-title">About Us</h1>
+          <p className="banner-subtitle">
+            Building strong healthcare teams through trust, compassion, and excellence.
+          </p>
+        </div>
+      </section>
+
+      {/* Main About Section */}
+      <section className="about-main">
+        <div className="about-content">
+          <h2>Who We Are</h2>
+          <p>
+            <strong>All American Medical Staffing</strong> is a trusted healthcare staffing
+            agency dedicated to providing professional, dependable, and compassionate staff
+            for healthcare organizations across the nation. We specialize in connecting
+            skilled nurses, management leaders, and healthcare professionals with
+            facilities that share their passion for quality care.
+          </p>
+          <p>
+            Our goal is to help medical providers maintain the highest standards of
+            patient care while ensuring healthcare professionals have rewarding and
+            fulfilling career opportunities. We work with hospitals, clinics, and
+            home-health agencies to ensure reliable, flexible, and compliant staffing
+            solutions.
+          </p>
+        </div>
+      </section>
+
+      {/* Our Mission & Values */}
+      <section className="about-values">
+        <h2>Our Mission</h2>
+        <p>
+          To serve as the bridge between exceptional healthcare professionals and
+          organizations that need them — fostering excellence, compassion, and trust in
+          every placement we make.
+        </p>
+
+        <h2>Our Values</h2>
+        <div className="values-grid">
+          <div className="value-card">
+            <h3>Integrity</h3>
             <p>
-              Ace Compliance Consulting is the source for growth and expansion into the best version of yourself.
-              It’s the playground where people do complete work that is effective, efficient, and meaningful.
+              We operate with honesty, accountability, and transparency in every client
+              and candidate interaction.
             </p>
           </div>
-
-          {/* About, Mission, Vision, Core Values */}
-        <div className="info-section">
-          <div className="info-card">
-            <h3>Ace Compliance Consulting's Company Culture improvement.</h3>
+          <div className="value-card">
+            <h3>Compassion</h3>
             <p>
-              Our company's culture is performance based and growth oriented for constant and never-ending
-Integrity-Driven Culture
-The company would prioritize honesty, transparency, and ethical behavior in all interactions with clients, employees, and partners. This would create a trustworthy environment where employees are encouraged to act with integrity and clients feel confident in the company's commitment to high standards.
+              We believe in serving others with care, empathy, and respect for every
+              healthcare worker and patient.
             </p>
           </div>
-
-          <div className="info-card">
-            <h3>Results-Oriented Culture</h3>
+          <div className="value-card">
+            <h3>Excellence</h3>
             <p>
-             With a focus on Effectiveness, the culture would emphasize achieving measurable outcomes and delivering quality results. Employees would be encouraged to find practical solutions that meet client needs, ensuring that the company consistently fulfills its promises.
+              We hold ourselves to the highest standards in compliance, service, and
+              professional quality.
             </p>
           </div>
-
-          <div className="info-card">
-            <h3>Efficiency-Focused Culture</h3>
+          <div className="value-card">
+            <h3>Dedication</h3>
             <p>
-              Emphasizing Efficiency means the company would value streamlined processes, time management, and resource optimization. There would be a strong focus on finding the most effective ways to complete tasks, reducing waste, and improving productivity across all operations.
+              Our team works tirelessly to ensure every healthcare facility receives the
+              right staff — on time, every time.
             </p>
-          </div>
-
-          <div className="info-card">
-            <h3>Culture of Achievement and Success</h3>
-            <p>
-              The value of Success would foster a culture that celebrates accomplishments, both individual and team-based.
-The company would likely set high standards for performance and encourage a growth mindset, inspiring employees to continuously improve and excel.
-            </p>
-          </div>
-
-          <div className="info-card">
-            <h3>Overall Cultural Traits:</h3>
-            <ul>
-              <li><strong>Trustworthy and Transparent:</strong>  Built on integrity, the company is known for ethical practices and clear communication.</li>
-              <li><strong>Goal-Oriented and High-Performing:</strong>Focus on achieving results and success drives employees to set ambitious goals and consistently meet them.</li>
-              <li><strong>Streamlined and Effective:</strong> Efficiency as a core value, processes are optimized for productivity, making the organization agile and adaptable.</li>
-            <li><strong>Supportive of Continuous Improvement:</strong> The culture encourages employees to develop skills and capabilities that align with the company's values and objectives.</li>
-           <li><strong>Work Environment:</strong> Collaborative, supportive, growth-oriented and success driven</li>
-             <li><strong>Employee Development:</strong> Focus on continuous learning, mentoring, and career advancement.</li>
-             <li><strong> Customer Approach: </strong> Our team engagement with clients is proactive, hands-on, and results driven.</li>
-              <li><strong>Leadership Style:</strong> Pressure leadership, accessible, empowering, and focused on fostering a culture of accountability.</li>
-            </ul>
           </div>
         </div>
+      </section>
 
-        <div className="info-card">
-          <h3>Core Values for Ace Compliance Consulting: ISEE</h3>
-          <ul>
-              <li><strong>Integrity -</strong>We uphold the highest standards of honesty, ethics, and accountability in every interaction and decision, ensuring trust and reliability in all we do.</li>
-              <li><strong>Success -</strong>We are driven by our clients' achievements, committed to transforming challenges into opportunities and fostering long-term growth and excellence.</li>
-              <li><strong>Effectiveness -</strong>We deliver impactful solutions and measurable results, empowering our clients to thrive in a competitive and regulated industry.</li>
-            <li><strong>Efficiency -</strong>We streamline processes, optimize operations, and provide practical strategies that save time, resources, and energy for maximum success.</li>
-            </ul>
-        </div>
-
-        <div className="about-grid">
-          <div className="about-card">
-            <h3>📋 PAS Licensing Support</h3>
-            <p>Expert guidance to complete and submit PAS applications for multiple U.S. states. We walk clients through each step of the process.</p>
-          </div>
-          <div className="about-card">
-            <h3>📋 HIPAA Compliance Guidance</h3>
-            <p>Ensure your practice or business is compliant with HIPAA laws with our detailed audits, policy templates, and consultant coaching.</p>
-          </div>
-          <div className="about-card">
-            <h3>💼 Medicaid/Medicare Consulting</h3>
-            <p>We prepare documentation and assist in applying for Medicaid/Medicare provider enrollment or billing credentials.</p>
-          </div>
-          <div className="about-card">
-            <h3>👩‍⚕️ Training for In-Home Caregivers</h3>
-            <p>Special programs for caregivers, nurses, and CNAs providing home-based medical services. Certification included.</p>
-          </div>
-          <div className="about-card">
-            <h3>💻 Admin Support & Workflow Automation</h3>
-            <p>We implement tools like GoHighLevel, vcita, and forms to help automate reminders, document intake, and follow-ups.</p>
-          </div>
-          <div className="about-card">
-            <h3>📋 PAS Licensing Support</h3>
-            <p>Expert guidance to complete and submit PAS applications for multiple U.S. states. We walk clients through each step of the process.</p>
-          </div>
-        </div>
-
-        <button onClick={() => navigate('/')}>⬅ Back to Home</button>
-        </div>
-      </div>
+      {/* Why Choose Section */}
+      <section className="about-why">
+        <h2>Why Choose All American Medical Staffing?</h2>
+        <ul>
+          <li>✔️ Nationwide coverage with local recruitment support.</li>
+          <li>✔️ Comprehensive vetting and credentialing process.</li>
+          <li>✔️ Flexible staffing options — per diem, travel, and permanent.</li>
+          <li>✔️ Dedicated 24/7 client support and compliance monitoring.</li>
+          <li>✔️ Commitment to quality and long-term partnership.</li>
+        </ul>
+      </section>
     </div>
   );
 };
 
-export default About;
+export default AboutHero;
